@@ -6,20 +6,16 @@ body{
 }
 
 ul {
-            list-style-type: none;
+    list-style-type: none;
 }
 
 a {
     text-decoration: none;
 }
 
-
-<- =========================== -->
 .header {
     background: #fff;
 }
-
-.header-navigation {}
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -37,12 +33,6 @@ a {
     
 }
 
-.header-list {}
-
-.header-item {
-    
-}
-
 .header-link {
     font-weight: 500;
     font-size: 16px;
@@ -50,21 +40,6 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.address {}
-
-.address-list {}
-
-.address-item {}
-
-.address-link {
-    
-}
-
-.address {}
-
-.address-list {}
-
-.address-item {}
 
 .address-text{
     font-size: 16px;
@@ -72,11 +47,7 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
-    }
 }
-    
-
-.main {}
 
 .studio {
     background: #2e2f42;
@@ -104,13 +75,6 @@ a {
     background: #4d5ae5;
 }
 
-.studio-button:hover,
-.studio-button:focus,
-.studio-button:active{
-    color:
-}
-.hidden {}
-
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -123,11 +87,7 @@ a {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-    
-.hidden-list {}
-    
-.hidden-item {}
-    
+       
 .hidden-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -154,13 +114,7 @@ a {
     text-align: center;
     color: #2e2f42;
 }
-        
- .ourteam-list {}
-        
- .ourteam-item {}
-        
- .ourteam-img {}
-        
+               
 .ourteam-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -178,8 +132,6 @@ a {
     color: #434455;
 }
 
-.portfolio {}
-
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -188,12 +140,6 @@ a {
     text-align: center;
     color: #2e2f42;
 }
-
-.portfolio-list {}
-
-.portfolio-item {}
-
-.portfolio-img {}
 
 .portfolio-subtitle {
     font-weight: 500;
