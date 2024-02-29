@@ -1,8 +1,19 @@
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Raleway" sans-serif;
     color: #2e2f42;;
     background-color: #fff;
+    
 }
+
+ul {
+            list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 <- =========================== -->
 .header {
     background: #fff;
@@ -11,6 +22,7 @@ body{
 .header-navigation {}
 
 .header-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -20,7 +32,9 @@ body{
 }
 
 .header-logo web {
+    font-family: "Raleway", sans-serif;
     color: #4d5ae5;
+    
 }
 
 .header-list {}
@@ -57,6 +71,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
     }
 }
     
@@ -76,7 +91,10 @@ body{
     color: #fff;
 }
 
-.studio-button {
+.studio-button,
+.studio-button:hover,
+.studio-button:focus,
+.studio-button:active{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -85,7 +103,26 @@ body{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
+
+.studio-button:hover,
+.studio-button:focus,
+.studio-button:active{
+    color:
+}
 .hidden {}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
     
 .hidden-list {}
     
@@ -105,7 +142,9 @@ body{
     color: #434455;
 }
 
- .ourteam {}
+ .ourteam {
+    background: #f4f4fd;
+ }
         
  .ourteam-title {
     font-weight: 700;
@@ -176,6 +215,7 @@ body{
 }
 
 .footer-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -185,6 +225,7 @@ body{
 }
 
 .web {
+    font-family: "Raleway", sans-serif;
     color: #4d5ae5;
 }
 
